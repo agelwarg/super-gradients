@@ -424,7 +424,7 @@ trainer.train(model=model, training_params=training_params, train_loader=train_l
     [2023-10-29 15:29:42] INFO - checkpoint_utils.py - License Notification: YOLO-NAS pre-trained weights are subjected to the specific license terms and conditions detailed in 
     https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md
     By downloading the pre-trained weight files you agree to comply with these terms.
-    Downloading: "https://sghub.deci.ai/models/yolo_nas_s_coco.pth" to /root/.cache/torch/hub/checkpoints/yolo_nas_s_coco.pth
+    Downloading: "https://sg-hub-nv.s3.amazonaws.com/models/yolo_nas_s_coco.pth" to /root/.cache/torch/hub/checkpoints/yolo_nas_s_coco.pth
     100%|██████████| 73.1M/73.1M [00:00<00:00, 81.0MB/s]
     [2023-10-29 15:29:43] INFO - checkpoint_utils.py - Successfully loaded pretrained weights for architecture yolo_nas_s
     [2023-10-29 15:29:44] INFO - sg_trainer.py - Starting a new run with `run_id=RUN_20231029_152944_310569`

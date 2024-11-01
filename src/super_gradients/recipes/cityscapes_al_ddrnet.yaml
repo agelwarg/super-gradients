@@ -14,7 +14,7 @@
 #       https://deci-pretrained-models.s3.amazonaws.com/ddrnet/imagenet_pt_backbones/ddrnet39_bb_imagenet.pth
 #
 #      Network checkpoints:
-#       DDRNet39:       https://sghub.deci.ai/models/ddrnet_39_cityscapes.pth
+#       DDRNet39:       https://sg-hub-nv.s3.amazonaws.com/models/ddrnet_39_cityscapes.pth
 #
 #  Learning rate and batch size parameters, using 4 RTX A5000 with DDP:
 #      DDRNet39:        input-size: [1024, 1024]     initial_lr: 0.0075    batch-size: 6 * 4gpus = 24
